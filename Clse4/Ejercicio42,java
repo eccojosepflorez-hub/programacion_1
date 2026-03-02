@@ -1,0 +1,24 @@
+package Clase4;
+
+import java.util.Scanner;
+
+public class Ejercicio42 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // pedir distancia
+        System.out.println("Digite la distancia:");
+        double distancia = sc.nextDouble();
+
+        // condicional
+        if (distancia > 20 && distancia < 35) {
+            System.out.println("Digite el tiempo:");
+            double tiempo = sc.nextDouble();
+            System.out.println("El tiempo es: " + tiempo);
+        } else {
+            System.out.println("La distancia no esta en el rango indicado");
+        }
+
+        sc.close();
+    }
+}
