@@ -1,0 +1,16 @@
+// Clase (El molde)
+class Coche {
+    private String color; // Encapsulamiento
+
+    public void acelerar() { // Método
+        System.out.println("El coche está acelerando");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Objeto (La creación)
+        Coche miCoche = new Coche();
+        miCoche.acelerar();
+    }
+}
